@@ -49,20 +49,14 @@ pip install torch numpy pandas scikit-learn matplotlib
 ## Word Complexity Classification
 	•	Input: English words (strings)
 	•	Output: Binary label (0 = Simple, 1 = Hard)
-	•	Example:
-
-"apple" → 0
-"ephemeral" → 1
+	•	Example: "apple" → 0, "ephemeral" → 1
 
 
 
 ## City-Country Classification
 	•	Input: City names (strings)
 	•	Output: Country label (string)
-	•	Example:
-
-"Paris" → "fr"
-"Beijing" → "cn"
+	•	Example: "Paris" → "fr", "Beijing" → "cn"
 
 
 
@@ -70,19 +64,17 @@ pip install torch numpy pandas scikit-learn matplotlib
 
 Both datasets should be stored in txt format:
 
-word,label
-apple,0
-ephemeral,1
+	•	word,label
+	•	apple,0
+	•	ephemeral,1
 
-city,country
-Paris,fr
-Beijing,cn
+	•	city,country
+	•	Paris,fr
+ 	•	Beijing,cn
 
 ## Model Architecture
 
-1. Character Embedding Layer
-
-Each word/city is processed at the character level, where each character is one-hot encoded and passed through an embedding layer.
+1. **Character Embedding Layer** : Each word/city is processed at the character level, where each character is one-hot encoded and passed through an embedding layer.
 
 2. RNN (GRU-based)
 	•	Input: Character embeddings
