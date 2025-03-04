@@ -14,14 +14,14 @@ The project implements character-level processing, where each input (word or cit
 - Capture character-level dependencies and patterns
 - Work with unseen words/cities through character-level generalization
 
-Key technical features:
+## Key technical features:
 - Uses GRU (Gated Recurrent Unit) for efficient sequence modeling
 - Implements custom dataset preprocessing with character-level one-hot encoding
 - Supports GPU acceleration for faster training
 - Includes comprehensive hyperparameter tuning experiments
 - Provides visualization tools for training progress and model performance
 
-Features
+## Features
 	•	Character-level embedding-based RNN for sequence modeling.
 	•	Binary classification of words as simple or hard.
 	•	Multi-class classification to predict the country given a city name.
@@ -30,7 +30,7 @@ Features
 	•	Trains on small to medium datasets with minimal hyperparameter tuning.
 	•	Supports GPU acceleration for faster training.
 
-Installation
+## Installation
 
 Requirements
 	•	Python (>=3.8)
@@ -40,13 +40,13 @@ Requirements
 	•	scikit-learn
 	•	Matplotlib (for visualization)
 
-Install Dependencies
+## Install Dependencies
 
 pip install torch numpy pandas scikit-learn matplotlib
 
-Dataset
+## Dataset
 
-Word Complexity Classification
+## Word Complexity Classification
 	•	Input: English words (strings)
 	•	Output: Binary label (0 = Simple, 1 = Hard)
 	•	Example:
@@ -56,7 +56,7 @@ Word Complexity Classification
 
 
 
-City-Country Classification
+## City-Country Classification
 	•	Input: City names (strings)
 	•	Output: Country label (string)
 	•	Example:
