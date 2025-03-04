@@ -66,7 +66,7 @@ pip install torch numpy pandas scikit-learn matplotlib
 
 
 
-Data Format (txt)
+## Data Format (txt)
 
 Both datasets should be stored in txt format:
 
@@ -78,7 +78,7 @@ city,country
 Paris,fr
 Beijing,cn
 
-Model Architecture
+## Model Architecture
 
 1. Character Embedding Layer
 
